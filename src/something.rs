@@ -1,6 +1,10 @@
 pub fn run() {
-    let a_number = 42;
-    let a_bool = true;
+    let meaning = 42;
+    let mut da_truth = true;
 
-    println!("{:?}", (a_bool, a_number));
+    println!("{} | {}", meaning, da_truth);
+
+    da_truth = false;
+
+    println!("{} | {}", meaning, da_truth);
 }
