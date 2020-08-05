@@ -1,12 +1,9 @@
 pub fn run() {
-
-    let oof = 42;
-    let owie = false;
-
+    let a_number = 42;
     println!(
-        "{oof} * {owie} = {yikers}",
-        oof = oof,
-        owie = owie,
-        yikers = if owie {oof} else {0}
-    );
+        "bin:{:b}\nhex:{:x}\noct:{:o}",
+        a_number,
+        a_number,
+        a_number
+    )
 }
