@@ -1,11 +1,4 @@
 pub fn run() {
-
-    const MEANING:i32 = 42;
-    let mut da_truth = true;
-
-    println!("{} | {}", MEANING, da_truth);
-
-    da_truth = false;
-
-    println!("{} | {}", MEANING, da_truth);
+    let x:u8 = 1;
+    println!("{} <= {} <= {}",std::u8::MIN, x, std::u8::MAX);
 }
